@@ -89,7 +89,18 @@
     font-weight: 700;
 
     color: #33323D;
+
+    animation: go-back 1s;
 }
+
+@keyframes go-back {
+    from {
+    transform: translateX(100px);
+    }
+    to {
+    transform: translateX(0);
+    }
+} 
 
 .sobre-text p {
     margin-top: 28px;
@@ -100,7 +111,18 @@
     line-height: 30px;
 
     color: #33323D;
+
+    animation: go-back 1s;
 }
+
+@keyframes go-back {
+    from {
+    transform: translateX(100px);
+    }
+    to {
+    transform: translateX(0);
+    }
+} 
 
 .sobre-text button{
     width: 204px;
@@ -117,6 +139,7 @@
 
     cursor: pointer;
 }
+
 
 
 

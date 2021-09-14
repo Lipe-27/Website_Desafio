@@ -83,15 +83,20 @@ header {
 }
 
 .div-contato button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 168px;
-    height: 48px;
+    height: 48px; 
+    
+    cursor: pointer;    
+}
 
+.div-contato button a{
     font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
+    color: #33323D;
 
-    color:#33323D;
-
-    cursor: pointer;
+    text-decoration: none;
 }
 
 footer {
